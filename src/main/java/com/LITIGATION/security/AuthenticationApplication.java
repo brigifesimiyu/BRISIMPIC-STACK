@@ -1,12 +1,14 @@
-package com.encode.fresh;
+package com.LITIGATION.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FreshApplication {
+
+public class AuthenticationApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(FreshApplication.class, args);
+		SpringApplication.run(AuthenticationApplication.class, args);
 	}
 
 }
